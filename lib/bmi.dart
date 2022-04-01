@@ -89,7 +89,7 @@ class _InputBMIState extends State<InputBMI> {
                             nama = (txt);
                           });
                         },
-                        keyboardType: TextInputType.number,
+                        keyboardType: TextInputType.nama,
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 20,
