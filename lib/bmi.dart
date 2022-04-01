@@ -89,7 +89,6 @@ class _InputBMIState extends State<InputBMI> {
                             nama = (txt);
                           });
                         },
-                        keyboardType: TextInputType.nama,
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 20,
@@ -108,7 +107,7 @@ class _InputBMIState extends State<InputBMI> {
                             jenis_kelamin = (txt);
                           });
                         },
-                        keyboardType: TextInputType.number,
+                        keyboardType: TextInputType.text,
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 20,
